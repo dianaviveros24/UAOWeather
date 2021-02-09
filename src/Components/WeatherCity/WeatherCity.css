@@ -1,0 +1,70 @@
+#root{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+body{
+   /* background-color: #161616;*/
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.o-card{
+    max-width: 60rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.5rem;
+  /*  background-color: rgb(8, 176, 206);*/
+    box-shadow: 0.2rem 0.2rem 0.5rem #636262;
+}
+.o-card-1{
+    max-width: 30rem;
+    max-height: 10rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.5rem;
+   /*background-color: rgb(9, 78, 99);*/
+    box-shadow: 0.2rem 0.2rem 0.5rem #636262;
+}
+.o-content{
+    margin: 2rem;
+    min-width: 30rem;
+    border-radius: 20px;
+    /*background-color: #012930;*/
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.o-weather-information{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.o-weather-information-a{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.o-weather-description{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    letter-spacing: 8px;
+    padding: 1rem;
+}
+.o-weather-icon{
+    margin: 1rem;
+}
+h2{
+    letter-spacing: 12px;
+}
+.o-horizontal{
+    margin-top: 5rem;
+}
+.o-vertical{
+    border-left: 1px solid;
+    height: 3rem;
+    width: 0rem;
+    float: left;
+    margin-right: 1rem;
+    margin-left: -3rem;
+}
